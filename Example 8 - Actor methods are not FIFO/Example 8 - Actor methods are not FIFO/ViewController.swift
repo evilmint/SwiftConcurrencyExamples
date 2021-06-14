@@ -55,6 +55,9 @@ class ViewController: UIViewController {
             let result = await withTaskGroup(of: Model.self) { group -> [Model] in
 
                 // Spawns 10 tasks which cache models
+                // If the execution of methods' body were FIFO
+                // the output would be models ordered from 1 to 10.
+                // Running the example yields different results, however.
                 for i in 1...10 {
                     group.async {
                         let model = Model(name: "Model \(i)")
