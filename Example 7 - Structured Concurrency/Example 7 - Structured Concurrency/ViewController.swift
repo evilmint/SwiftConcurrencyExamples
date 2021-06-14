@@ -78,9 +78,8 @@ class ViewController: UIViewController {
     }
 
     func getWeatherForCity(_ city: City) async throws -> Weather {
-        // Please replace with your own API key - this should be used for single or a few
-        // refreshes.
-        let apiKey = "99330a144e77d86e783a108ebc92d559"
+        // Insert your own OpenWeatherMap API key
+        let apiKey = ""
         var urlComponents = URLComponents(string: "https://api.openweathermap.org/data/2.5/weather")!
         urlComponents.queryItems = [
             .init(name: "q", value: city.name),
