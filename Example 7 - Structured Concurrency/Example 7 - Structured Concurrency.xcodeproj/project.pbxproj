@@ -78,22 +78,6 @@
 		};
 /* End PBXGroup section */
 
-/* Begin PBXLegacyTarget section */
-		4993A0F826701A20002AAF63 /* j */ = {
-			isa = PBXLegacyTarget;
-			buildArgumentsString = "$(ACTION)";
-			buildConfigurationList = 4993A0FB26701A20002AAF63 /* Build configuration list for PBXLegacyTarget "j" */;
-			buildPhases = (
-			);
-			buildToolPath = /usr/bin/make;
-			dependencies = (
-			);
-			name = j;
-			passBuildSettingsInEnvironment = 1;
-			productName = j;
-		};
-/* End PBXLegacyTarget section */
-
 /* Begin PBXNativeTarget section */
 		4993A0E026700EAC002AAF63 /* Example 7 - Structured Concurrency */ = {
 			isa = PBXNativeTarget;
@@ -125,9 +109,6 @@
 					4993A0E026700EAC002AAF63 = {
 						CreatedOnToolsVersion = 13.0;
 					};
-					4993A0F826701A20002AAF63 = {
-						CreatedOnToolsVersion = 13.0;
-					};
 				};
 			};
 			buildConfigurationList = 4993A0DC26700EAC002AAF63 /* Build configuration list for PBXProject "Example 7 - Structured Concurrency" */;
@@ -144,7 +125,6 @@
 			projectRoot = "";
 			targets = (
 				4993A0E026700EAC002AAF63 /* Example 7 - Structured Concurrency */,
-				4993A0F826701A20002AAF63 /* j */,
 			);
 		};
 /* End PBXProject section */
@@ -370,33 +350,6 @@
 			};
 			name = Release;
 		};
-		4993A0F926701A20002AAF63 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEBUGGING_SYMBOLS = YES;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEVELOPMENT_TEAM = R2CTR74H64;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4993A0FA26701A20002AAF63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = R2CTR74H64;
-				OTHER_CFLAGS = "";
-				OTHER_LDFLAGS = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -414,15 +367,6 @@
 			buildConfigurations = (
 				4993A0F626700EAD002AAF63 /* Debug */,
 				4993A0F726700EAD002AAF63 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4993A0FB26701A20002AAF63 /* Build configuration list for PBXLegacyTarget "j" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4993A0F926701A20002AAF63 /* Debug */,
-				4993A0FA26701A20002AAF63 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
